@@ -8,5 +8,11 @@ namespace PortfolioWebApp
     public static class ProjectStorage
     {
         public static List<Project> Projects { get; private set; } = new List<Project>()
+        {
+            new Project
+            {
+
+            }
+        }
     }
 }
